@@ -1,0 +1,61 @@
+/* ====== CARD ====== */
+.ad-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ad-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.ad-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* ====== BADGE ====== */
+.ad-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.ad-badge.urgent {
+  background: #e63946;
+}
+
+.ad-badge.premium {
+  background: #f4a261;
+}
+
+.ad-badge.sale {
+  background: #2a9d8f;
+}
+
+/* ====== TEXT ====== */
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #ff6b35;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.city {
+  font-size: 14px;
+  color: #777;
+}
